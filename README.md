@@ -15,5 +15,6 @@ gcc -static fakeinit.c -o fakeinit
 sh takeover.sh
 # Follow instructions
 exec /bin/sh
+# ssh -p 80 root@server.hostname
 # Enjoy
 ```
